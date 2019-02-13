@@ -1,0 +1,9 @@
+<div class="jumbotron">
+  {{#if user}}
+    <p>Welcome {{user}}!</p>
+    <p>Your email address: {{email}}</p>
+  {{else}}
+  	<h2>Welcome to Tufts Forum!</h2>
+    <a class="btn btn-primary btn-large" href="{{signInUrl}}">Sign in through Outlook</a>
+  {{/if}}
+</div>
